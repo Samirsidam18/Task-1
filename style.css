@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #0f172a;
+    color: white;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: #111827;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #22d3ee;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin-left: 25px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #22d3ee;
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 50px;
+}
+
+.hero-text h1 {
+    font-size: 50px;
+}
+
+.hero-text span {
+    color: #22d3ee;
+}
+
+.hero-text p {
+    margin: 20px 0;
+    color: #cbd5e1;
+}
+
+.hero button {
+    padding: 12px 25px;
+    background: #22d3ee;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.hero-img img {
+    width: 400px;
+    border-radius: 20px;
+}
+
+/* Features */
+.features {
+    padding: 60px 50px;
+    text-align: center;
+}
+
+.features h2 {
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    background: #1f2937;
+    padding: 30px;
+    border-radius: 15px;
+    width: 30%;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* Tracker */
+.tracker {
+    padding: 60px 50px;
+    text-align: center;
+}
+
+.tracker input {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+}
+
+.tracker button {
+    padding: 10px 20px;
+    background: #22d3ee;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tracker ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.tracker li {
+    background: #1f2937;
+    padding: 10px;
+    margin: 5px auto;
+    width: 300px;
+    border-radius: 5px;
+}
